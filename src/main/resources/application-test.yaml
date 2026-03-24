@@ -1,0 +1,46 @@
+custom:
+  config:
+    prop1: prop1_value_test_profile
+    prop2: prop2_value_test_profile
+    prop3:
+      - prop3_item1_test_profile
+      - prop3_item2_test_profile
+    prop4:
+      key1: prop4_key1_value_test_profile
+      key2: prop4_key2_value_test_profile
+    pojo:
+      pojo-prop1: pojo-prop1-str_test_profile
+      pojo-prop2:
+        - pojo-prop2-item1_test_profile
+        - pojo-prop2-item2_test_profile
+
+
+my:
+  new:
+    props:
+      pojo-map:
+        pojo-key1:
+          string-set:
+            - pojo set value1_1_test_profile
+            - pojo set value1_2_test_profile
+            - pojo set value1_3_test_profile
+          string-map:
+            key1: pojo map value1_1_test_profile
+            key2: pojo map value1_2_test_profile
+        pojo-key2:
+          string-set:
+            - pojo set value2_1_test_profile
+            - pojo set value2_2_test_profile
+            - pojo set value2_3_test_profile
+          string-map:
+            key1: pojo map value2_1_test_profile
+            key2: pojo map value2_2_test_profile
+      string-list-map:
+        key1:
+          - value11_test_profile
+          - value12_test_profile
+          - value13_test_profile
+        key2:
+          - value24_test_profile
+          - value25_test_profile
+      some-prop: some-prop-value_test_profile

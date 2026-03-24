@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: spring-debugger-props-inlays-yaml
+custom:
+  config:
+    prop1: prop1_value_yaml
+    prop2: prop2_value_yaml
+    prop3:
+      - prop3_item1_yaml
+      - prop3_item2_yaml
+    prop4:
+      key1: prop4_key1_value
+      key2: prop4_key2_value
+    pojo:
+      pojo-prop1: pojo-prop1-str
+      pojo-prop2:
+        - pojo-prop2-item1
+        - pojo-prop2-item2
+
+my:
+  new:
+    props:
+      pojo-map:
+        pojo-key1:
+          string-set:
+            - pojo set value1_1
+            - pojo set value1_2
+            - pojo set value1_3
+          string-map:
+            key1: pojo map value1_1
+            key2: pojo map value1_2
+        pojo-key2:
+          string-set:
+            - pojo set value2_1
+            - pojo set value2_2
+            - pojo set value2_3
+          string-map:
+            key1: pojo map value2_1
+            key2: pojo map value2_2
+      string-list-map:
+        key1:
+          - value11
+          - value12
+          - value13
+        key2:
+          - value24
+          - value25
+          - value25
+      some-prop: some string value
